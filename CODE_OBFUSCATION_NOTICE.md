@@ -36,7 +36,7 @@ If you don’t have access to a virtual machine or sandbox, you can still test t
 
 1. **Local Containers**: Use tools like Docker to run the code in a controlled environment. Docker containers help isolate the code from your main system. You can find setup instructions for Docker [here](https://docs.docker.com/get-docker/).
 
-2. **Virtual Machines**: Set up a virtual machine (VM) to test the code in an isolated environment. This helps ensure that any potential issues don’t affect your main system. You can use software like [VirtualBox](https://www.virtualbox.org/) or [VMware](https://www.vmware.com/products/workstation-player.html) for this purpose.
+2. **Virtual Machines**: Set up a virtual machine (VM) to test the code in an isolated environment. This helps ensure that any potential issues don’t affect your main system.
 
 If you have specific questions about features or need to see something in action, I can provide screenshots or screen recordings. Feel free to reach out with any questions or concerns. I’m here to help and make sure everything works safely for you.
 [click here](https://t.me/QuantumLabs869_bot).
