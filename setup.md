@@ -74,7 +74,6 @@ Here’s a breakdown of each argument you can use with the script:
 - `--session`: Create a session for each account and use it.
 - `--fast`: Reduce delays to speed up the script.
 - `--superfast`: Further reduce delays for maximum speed.
-- `--telegram <API_TOKEN> <CHAT_ID>`: Send logs to Telegram.
 - `--discord <WEBHOOK_URL>`: Send logs to Discord via webhook.
 - `--account-browser <account>`: Open a browser session for the specified account.
 - `--bonus : collect bonus points
@@ -99,7 +98,7 @@ Here’s a breakdown of each argument you can use with the script:
 
 Once everything is set up, you can run the script with your desired arguments. For example:
 ```bash
-python script.py --no-webdriver-manager --fast --telegram <API_TOKEN> <CHAT_ID>
+python script.py --no-webdriver-manager --fast
 ```
 
 ## Notes
