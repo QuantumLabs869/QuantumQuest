@@ -1,0 +1,26 @@
+{
+  "search_interval": 7,
+  "accountLimit": 10,
+  "redeem_goal": 1700,
+  "tasks": {
+    "Daily": false,
+    "More promotions": false,
+    "Punch cards": false,
+    "Prediction Game": false,
+    "Read to earn": false
+  },
+  "extension_filenames": [
+    "web.crx",
+    "font.crx",
+    "audio.crx"
+  ],
+  "vpn": {
+    "enabled": false,
+    "username": "your_username",
+    "password": "your_password",
+    "location": "your_desired_location"
+  },
+  "TOKEN": "your_token",
+  "CHAT_ID": "your_chat_id",
+  "secondary_email": "your_secondary_email@example.com"
+}

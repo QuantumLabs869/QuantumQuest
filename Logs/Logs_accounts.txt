@@ -1,0 +1,15 @@
+{
+    "Your Email": {
+        "Last check": "2024-07-28",
+        "Today's points": 0,
+        "Points": 0,
+        "Daily": false,
+        "Punch cards": false,
+        "More promotions": false,
+        "Prediction Game": false,
+        "PC searches": false,
+        "Round": 0,
+        "Cooldown": false,
+        "Read to earn": false
+    }
+}
