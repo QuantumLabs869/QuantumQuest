@@ -13,7 +13,7 @@ If you need any help or encounter any issues, reach out to us via Telegram: [cli
 ## 🌐 Key Features
 
 ### QuantumCooldown Mastery
-- **Bypass Cooldown Limits:** Enjoy smoother and more efficient quests without Microsoft’s cooldown restrictions.
+- **Bypass Cooldown Limits:** Enjoy smoother and more efficient quests by minimising Microsoft’s cooldown restrictions.
 
 ### Search Domination
 - **Multi-Platform Search:** Manage searches efficiently on both mobile and PC.
