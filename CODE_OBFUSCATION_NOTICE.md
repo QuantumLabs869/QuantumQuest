@@ -6,7 +6,7 @@ The code here is obfuscated mainly to protect it. The goal is to keep the inner 
 
 ## Addressing Concerns
 
-we understand that obfuscated code can be a bit concerning. Please rest assured that there’s no malicious intent. However, if you want to make sure the code is safe before running it, here are a few ways to do that:
+we understand that obfuscated code can be a bit concerning. Please rest assured that there’s no malicious intent. However, if you want to make sure the code is safe before running it on your Device, here are a few ways to do that:
 
 ### How to Test Safely
 
