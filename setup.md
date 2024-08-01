@@ -107,4 +107,4 @@ python script.py --no-webdriver-manager --fast
 - Nord vpn available for those who has account in Nord vpn
 - **Extensions:** Add or remove extensions as needed.
 
-For further assistance or issues, contact via Telegram: [@User49020](https://t.me/User49020).
+For further assistance or issues, contact via Telegram: [click here](https://t.me/QuantumLabs869_bot).
