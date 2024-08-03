@@ -40,7 +40,7 @@ If you need any help or encounter any issues, reach out to us via Telegram: [cli
 ### Auto Outlook Account Creator 🤖2.0
 - **Create Outlook Accounts:** Easily create Outlook accounts on the go.
 
-🚧 **Currently in Debugging Stage:** We're fine-tuning the tool to ensure a seamless experience. Stay tuned for the official launch soon!
+🚧 **Currently in Debugging Stage:** We're working on a bud to ensure a seamless experience. Stay tuned for the official launch soon!
 ![Click here to see the screen record ](MP4_20240803_232332VLOG.mp4)
 
 ### QuantumFingerprint Evasion
