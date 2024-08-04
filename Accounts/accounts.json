@@ -1,6 +1,18 @@
 [
     {
         "username": "Your Email",
-        "password": "Your Password"
-    }
+        "password": "Your Password",
+        "pc_user_agent": "preferred PC user agent",
+        "mobile_user_agent": "mobile user agent",
+        "proxy": "proxy (IP:PORT)",
+        "proxy_auth": "username:password"
+    },
+    {
+        "username": "Your Email 2",
+        "password": "Your Password 2",
+        "pc_user_agent": "PC user agent",
+        "mobile_user_agent": "mobile user agent",
+        "proxy": "proxy (IP:PORT)",
+        "proxy_auth": "username:password"
+     }
 ]
