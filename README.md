@@ -13,7 +13,7 @@ If you need any help or encounter any issues, reach out to us via Telegram: [cli
 ## 🌐 Key Features
 
 ### QuantumCooldown Mastery
-- **Bypass Cooldown Limits:** Enjoy smoother and more efficient quests by minimising Microsoft’s cooldown restrictions.
+- **Bypass Cooldown Limits:** Enjoy smoother and more efficient quests by minimizing Microsoft’s cooldown restrictions.
 
 ### Search Domination
 - **Multi-Platform Search:** Manage searches efficiently on both mobile and PC.
@@ -40,7 +40,7 @@ If you need any help or encounter any issues, reach out to us via Telegram: [cli
 ### Auto Outlook Account Creator 🤖2.0
 - **Create Outlook Accounts:** Easily create Outlook accounts on the go.
 
-🚧 **Currently in Debugging Stage:** We're working on a bud to ensure a seamless experience. Stay tuned for the official launch soon!
+🚧 **Currently in Debugging Stage:** We're working on a bug to ensure a seamless experience. Stay tuned for the official launch soon!
 ![Click here to see the screen record ](MP4_20240803_232332VLOG.mp4)
 
 ### QuantumFingerprint Evasion
@@ -87,3 +87,7 @@ Get started with QuantumQuest by following our comprehensive [setup guide](setup
 ## 🌀 QuantumFuture
 
 Stay tuned for continuous updates, ensuring QuantumQuest remains your top companion for Microsoft Rewards!
+
+## ❓ Frequently Asked Questions
+
+For more information and detailed answers to common questions, check out our [FAQ](FAQ.md).
