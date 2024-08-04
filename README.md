@@ -68,8 +68,7 @@ If you need any help or encounter any issues, reach out to us via Telegram: [cli
 - **User-Friendly Adjustments:** Make simple adjustments to optimize your environment.
 
 ### Advanced Features
-- **Quantum Multi-Tasking:** Speed up tasks using the multi-tasking feature (in testing).
-- **QuantumAutoRedeem:** Automatically redeem your Microsoft Rewards.
+- **QuantumAutoRedeem:** get your accounts to redeem sorted out in detail 
 - **Scheduled Runs:** Schedule specific times for task execution.
 - **Randomized Searches:** Add randomness to searches and adapt with Bing Trends if needed.
 - **HTTP Proxy Support:** Integrate HTTP proxies seamlessly.
