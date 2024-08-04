@@ -22,5 +22,6 @@
   },
   "TOKEN": "your_token",
   "CHAT_ID": "your_chat_id",
+  "Discord_url": "webhook_url",
   "secondary_email": "your_secondary_email@example.com"
 }
