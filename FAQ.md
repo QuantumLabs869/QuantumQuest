@@ -8,7 +8,8 @@
 </details>
 
 <details>
-<summary>Q2: How does QuantumQuest bypass the cooldown on searches?</summary>
+<summary>Q2: How does QuantumQuest bypass the cooldown on searches?
+what's Round</summary>
 
 **A2:** QuantumQuest checks if your account has a cooldown. If there isn’t one, it slows down the search speed, introduces intentional mistakes in search queries, clicks on search results, and scrolls through them. Additionally, it performs a random number of extra searches (between 2 to 6).
 
