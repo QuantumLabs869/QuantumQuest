@@ -98,7 +98,7 @@ Here’s a breakdown of each argument you can use with the script:
 
 Once everything is set up, you can run the script with your desired arguments. For example:
 ```bash
-python script.py --no-webdriver-manager --fast
+python main.py --no-webdriver-manager --fast
 ```
 
 ## Notes
