@@ -42,6 +42,7 @@
      },
      "TOKEN": "your_token", // telegram tocken and chat id
      "CHAT_ID": "your_chat_id",
+     "Discord_url": "webhook_url", //add you discord webhook urk
      "secondary_email": "your_secondary_email@example.com" // give a email so bot can use it as secondary email 
    }
    ```
