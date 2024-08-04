@@ -75,7 +75,6 @@ Here’s a breakdown of each argument you can use with the script:
 - `--session`: Create a session for each account and use it.
 - `--fast`: Reduce delays to speed up the script.
 - `--superfast`: Further reduce delays for maximum speed.
-- `--discord <WEBHOOK_URL>`: Send logs to Discord via webhook.
 - `--account-browser <account>`: Open a browser session for the specified account.
 - `--bonus : collect bonus points
  including setting goal(200) etc.
