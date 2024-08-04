@@ -1,15 +1,14 @@
 # QuantumQuest FAQ
 
 <details>
-<summary>Q1: Is the Outlook Account Creator currently working</summary>
+<summary>Q1: Is the Outlook Account Creator currently working?</summary>
 
-**A1:** The Outlook Account Creator feature is temporarily taken down for security reasons. it will be available again soon.
+**A1:** The Outlook Account Creator feature is temporarily down for security reasons. We are working on it, and it will be available again soon.
 
 </details>
 
 <details>
-<summary>Q2: How does QuantumQuest bypass the cooldown on searches?
-what's Round</summary>
+<summary>Q2: How does QuantumQuest bypass the cooldown on searches?</summary>
 
 **A2:** QuantumQuest checks if your account has a cooldown. If there isn’t one, it slows down the search speed, introduces intentional mistakes in search queries, clicks on search results, and scrolls through them. Additionally, it performs a random number of extra searches (between 2 to 6).
 
@@ -32,7 +31,7 @@ If your account does have a cooldown, the searches are split into rounds with a 
 </details>
 
 <details>
-<summary>Q5: Can I add extensions,like privacy extension, to QuantumQuest?</summary>
+<summary>Q5: Can I add extensions, like a WebRTC block extension, to QuantumQuest?</summary>
 
 **A5:** Yes, QuantumQuest allows you to add browser extensions. Simply update your `settings.json` file with the extensions you want to include.
 
@@ -48,7 +47,7 @@ If your account does have a cooldown, the searches are split into rounds with a 
 <details>
 <summary>Q7: What does the "redeem.txt" file do?</summary>
 
-**A7:** The `redeem.txt` file lists accounts that have reached your specified "redeem goal points," which is set in the `settings.json` file. Once an account reaches the goal, the bot will stop farming those account for 3 days(it's recommended to give that account a 3-day break before redeeming). After redeeming remove it from the list.
+**A7:** The `redeem.txt` file lists accounts that have reached your specified "redeem goal points," which is set in the `settings.json` file. Once an account reaches the goal, the bot will stop farming that account so you can redeem safely. After redeeming, it's recommended to give that account a 3-day break and remove it from the list.
 
 </details>
 
@@ -63,6 +62,13 @@ If your account does have a cooldown, the searches are split into rounds with a 
 - **Skip the maps bonus task** as it has been taken down by Microsoft. The bot will automatically bypass this until the feature is restored.
 
 This approach helps new accounts gain points quickly and efficiently.
+
+</details>
+
+<details>
+<summary>Q9: How does the bot add secondary mail to accounts with unusual activity detected?</summary>
+
+**A9:** If you have the `--secondary` option enabled, whenever the bot detects unusual activity on an account, it will add your given email as a secondary email using the "dot trick." This involves adding a dot at a random position in your email, making it appear as a different email address. The bot will then prompt you to enter the OTP in the terminal, so you'll need to keep an eye on the process while using the `--secondary` feature.
 
 </details>
 
