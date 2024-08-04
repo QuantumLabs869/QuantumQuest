@@ -12,7 +12,7 @@
 
 **A2:** QuantumQuest checks if your account has a cooldown. If there isn’t one, it slows down the search speed, introduces intentional mistakes in search queries, clicks on search results, and scrolls through them. Additionally, it performs a random number of extra searches (between 2 to 6).
 
-If your account does have a cooldown, the searches are split into rounds with a 15-minute interval between each. During this interval, the bot will handle other accounts and return to the original one after the cooldown period. This ensures no time is wasted.
+If your account does have a cooldown, the searches are split into rounds with a 15-minute interval between each. During this interval, the bot will handle other accounts and return to the original one after the cooldown period. This ensures no time is wasted.if all other accounts has been finished before 15 minutes it'll wait (15-(total time taken to finish all accounts))
 
 </details>
 
@@ -31,7 +31,7 @@ If your account does have a cooldown, the searches are split into rounds with a 
 </details>
 
 <details>
-<summary>Q5: Can I add extensions, like a WebRTC block extension, to QuantumQuest?</summary>
+<summary>Q5: Can I add extensions, like a privacy extension to QuantumQuest?</summary>
 
 **A5:** Yes, QuantumQuest allows you to add browser extensions. Simply update your `settings.json` file with the extensions you want to include.
 
@@ -47,7 +47,7 @@ If your account does have a cooldown, the searches are split into rounds with a 
 <details>
 <summary>Q7: What does the "redeem.txt" file do?</summary>
 
-**A7:** The `redeem.txt` file lists accounts that have reached your specified "redeem goal points," which is set in the `settings.json` file. Once an account reaches the goal, the bot will stop farming that account so you can redeem safely. After redeeming, it's recommended to give that account a 3-day break and remove it from the list.
+**A7:** The `redeem.txt` file lists accounts that have reached your specified "redeem goal points," which is set in the `settings.json` file. Once an account reaches the goal, the bot will stop farming for 3 days(it's recommended to give that account a 3-day break) so you can redeem safely. After redeeming remove the account from the list.
 
 </details>
 
@@ -57,9 +57,9 @@ If your account does have a cooldown, the searches are split into rounds with a 
 **A8:** The bonus feature is designed to optimize the point accumulation process for fresh accounts. If your account was just added or created, and the bonus argument is included, the bot will:
 
 - **Set an initial goal** of 200 points.
-- **Perform Bing searches** for the first level, aiming for 10-50 points.
+- **Perform Bing searches** for the first level, aiming for 50 points.
 - **Complete the TakeLessons signup** task to earn 200 points (currently in beta, so your feedback would be valuable).
-- **Skip the maps bonus task** as it has been taken down by Microsoft. The bot will automatically bypass this until the feature is restored.
+- **Skip the maps bonus task** of 100 points. as it has been taken down by Microsoft. The bot will automatically bypass this until the feature is restored.
 
 This approach helps new accounts gain points quickly and efficiently.
 
