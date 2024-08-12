@@ -1,6 +1,6 @@
 🚀 QuantumQuest 3.2 Beta Launching Today! 🚀
 
-The most human-like bot experience yet with features like typo scrolling, random clicks, and wait times! QuantumQuest 3.2 Beta is coming today with an exciting new feature: gen-outlook.
+The most human-like bot experience yet with features like typo ,scrolling, random clicks, and wait times! QuantumQuest 3.2 Beta is coming today with an exciting new feature: gen-outlook.
 
 🔹 Introducing gen-outlook:
 - Generate Unlimited Outlook Accounts: Create as many Outlook accounts as you need, with details saved in the genoutlook.json file.
