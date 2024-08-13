@@ -7,7 +7,7 @@ The most human-like bot experience yet with features like typo ,scrolling, rando
 - Auto Captcha: No more captcha hassles! We're using the free version of Nopecha with 60%-70% accuracy. A new captcha solver is in the works for the next version. For now, you might need to assist Nopecha with solving captchas.
 
 🔧 How to Run gen-outlook:
-python main.py --genoutlook --no-webdriver-manager --accounts-file gen-outlook.json --secondary --captcha --session
+python main.py --genoutlook --no-webdriver-manager --accounts-file gen-outlook.json --secondary --captcha --session --usa
 
 - --secondary: Automatically adds a recovery email to the new accounts. [More info](https://github.com/QuantumLabs869/QuantumQuest/blob/master/FAQ.md)
 - --session: Saves the session of the new account, so no need for re-login.
