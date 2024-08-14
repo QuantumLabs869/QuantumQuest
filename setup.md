@@ -22,6 +22,8 @@
      "search_interval": 7,  // Time between each search in seconds
      "accountLimit": 10,    // Number of accounts to create by gen-outlook 
      "redeem_goal": 1700,   // Points goal for redemption
+     "pc_search": true, // true pc searches are enabled, false disabled 
+     "mobile_search": true,// true mobile searches are enabled, false disabled 
      "tasks": {
        "Daily": true,
        "More promotions": true,
