@@ -2,6 +2,8 @@
   "search_interval": 7,
   "accountLimit": 10,
   "redeem_goal": 1700,
+  "pc_search": true,
+  "mobile_search": true,
   "tasks": {
     "Daily": false,
     "More promotions": false,
