@@ -22,6 +22,10 @@ If you need any help or encounter any issues, reach out to us via Telegram: [cli
 - **Advanced Typo:** Mimic human-like typos for a natural touch.
 - **Scroll Through Search Results:** Interact dynamically with search results.
 
+### Auto Outlook Account Creator 🤖2.0
+- **Create Outlook Accounts:** Easily create Outlook accounts on the go.
+![Click here to see the screen record ](MP4_20240803_232332VLOG.mp4)
+
 ### Device Compatibility 📱💻
 - **PC/Mac:** Full functionality through web browsers and Python environments.
 - **Android Devices:** Use mobile browsers and Android-compatible automation tools like Termux and Selenium to run scripts and manage accounts.
