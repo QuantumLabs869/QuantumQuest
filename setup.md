@@ -84,7 +84,8 @@ Here’s a breakdown of each argument you can use with the script:
 - `--start-at <HH:MM>`: Start the script at the specified time (24h format).
 - `--on-finish <ACTION>`: Define an action to perform when the script finishes (shutdown, sleep, hibernate, exit).
 - `--nordvpn`: Use NordVPN for VPN.
-     currently only supported in windows 
+     currently only supported in windows
+- `--captcha`: solve captchas for gen-outlook 
 - `--skip-unusual`: Skip unusual activity detection.
 - `--no-images`: Prevent images from loading to increase performance.
 - `--shuffle`: Randomize the order of accounts.
@@ -103,6 +104,22 @@ Once everything is set up, you can run the script with your desired arguments. F
 python main.py --no-webdriver-manager --fast
 ```
 
+🔧 **How to Run gen-outlook:**
+
+1. Ensure your `settings.json` includes the `"gen_country"` key with your country:
+
+    ```json
+    {
+        "gen_country": "Your Country"
+    }
+    ```
+
+2. Execute the following command:
+
+    ```bash
+    python main.py --gen-outlook --no-webdriver-manager --accounts-file genoutlook.json --secondary --captcha --session
+    ```
+    
 ## Notes
 
 - **VPN:** Currently, Windscribe is being tested with the extension in the beta version.
