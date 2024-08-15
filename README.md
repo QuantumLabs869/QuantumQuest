@@ -39,8 +39,8 @@ If you need any help or encounter any issues, reach out to us via Telegram: [cli
 
 ### Auto Outlook Account Creator 🤖2.0
 - **Create Outlook Accounts:** Easily create Outlook accounts on the go.
-  ![how to run]
-  (Notice.md)
+
+[How to Run](Notice.md)
   
 ![Click here to see the screen record ](MP4_20240803_232332VLOG.mp4)
 
