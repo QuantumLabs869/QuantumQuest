@@ -41,11 +41,6 @@ If you need any help or encounter any issues, reach out to us via Telegram: [cli
 - **Read to Earn:** Collect Read to Earn points quickly.
 - **Map Bonus:** Earn rewards from map tasks. (Removed by Microsoft)
 
-### Auto Outlook Account Creator 🤖2.0
-- **Create Outlook Accounts:** Easily create Outlook accounts on the go.
-
-![Click here to see the screen record ](MP4_20240803_232332VLOG.mp4)
-
 ### QuantumFingerprint Evasion
 - **QuantumFingerprint:** Adds a random browser fingerprint to navigate seamlessly and avoid bans.
 
