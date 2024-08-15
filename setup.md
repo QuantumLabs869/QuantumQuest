@@ -67,7 +67,6 @@
 
 Here’s a breakdown of each argument you can use with the script:
 
-- `--usa`: Award bonus points for the USA only and to generate usa region account while generating accounts 
 - `--secondary`: add secondary email addresses 
 - `--gen-outlook`: Generate Outlook accounts.
 - `--click-results`: Click on search results.
