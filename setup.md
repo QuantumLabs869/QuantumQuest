@@ -21,7 +21,8 @@
    {
      "search_interval": 7,  // Time between each search in seconds
      "accountLimit": 10,    // Number of accounts to create by gen-outlook
-     "gen_country": "Your country", // country to generate accounts from 
+     "gen_country": "Your country", // country to generate accounts from
+     "2captcha_api": "your api", //add your 2 captcha api or you remove this line and user free version 
      "redeem_goal": 1700,   // Points goal for redemption
      "pc_search": true, // true pc searches are enabled, false disabled 
      "mobile_search": true,// true mobile searches are enabled, false disabled 
