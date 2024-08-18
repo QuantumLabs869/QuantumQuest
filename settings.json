@@ -2,6 +2,7 @@
   "search_interval": 7,
   "accountLimit": 10,
   "gen_country": "Your country",
+  "2captcha_api",
   "redeem_goal": 1700,
   "pc_search": true,
   "mobile_search": true,
