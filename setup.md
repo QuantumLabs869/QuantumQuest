@@ -120,7 +120,32 @@ python main.py --no-webdriver-manager --fast
     ```bash
     python main.py --gen-outlook --no-webdriver-manager --accounts-file genoutlook.json --secondary --captcha --session
     ```
-    
+2.1 how to use proxies in gen-outlook 
+
+Manage proxies using `proxies.json`:
+
+- Authenticated Proxy:
+  ```json
+  {
+      "proxy": "http://proxy-url:port",
+      "proxy_auth": "username:password"
+  }
+  ```
+
+- Non-Authenticated Proxy:
+  ```json
+  {
+      "proxy": "http://proxy-url:port",
+      "proxy_auth": null
+  }
+  ```
+
+- No Proxies:
+  ```json
+  {
+      "proxies": []
+  }
+  ```
 ## Notes
 
 - **VPN:** Currently, Windscribe is being tested with the extension in the beta version.
