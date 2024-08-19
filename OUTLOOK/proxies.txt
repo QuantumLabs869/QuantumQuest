@@ -1,1 +1,24 @@
-
+{
+    "proxies": [
+        {
+            "proxy": "http://proxy1-url:port",
+            "proxy_auth": "username1:password1"
+        },
+        {
+            "proxy": "http://proxy2-url:port",
+            "proxy_auth": "username2:password2"
+        },
+        {
+            "proxy": "http://proxy3-url:port",
+            "proxy_auth": "username3:password3"
+        },
+        {
+            "proxy": "http://proxy4-url:port",
+            "proxy_auth": null
+        },
+        {
+            "proxy": "http://proxy5-url:port",
+            "proxy_auth": null
+        }
+    ]
+}
