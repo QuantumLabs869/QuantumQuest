@@ -4,7 +4,7 @@
   "gen_country": "Your country",
   "2captcha_api": "your api",
   "redeem_goal": 1700,
-  "RedeemAssistant": skip,
+  "RedeemAssistant": "skip",
   "pc_search": true,
   "mobile_search": true,
   "tasks": {
