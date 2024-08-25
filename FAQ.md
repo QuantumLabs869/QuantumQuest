@@ -4,7 +4,7 @@
 <summary>Q1:Is the Outlook Account Creator currently working?</summary>
 
 
-**A1:** The Outlook Account Creator feature is temporarily down for security reasons. We are working on it, and it will be available again soon.
+**A1:** Yes.
 
 </details>
 
