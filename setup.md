@@ -119,7 +119,7 @@ python main.py --no-webdriver-manager --fast
 2. Execute the following command:
 
     ```bash
-    python main.py --gen-outlook --no-webdriver-manager --accounts-file genoutlook.json --secondary --captcha --session
+    python main.py --gen-outlook --accounts-file genoutlook.json --secondary --captcha --session
     ```
 2.1 how to use proxies in gen-outlook 
 
