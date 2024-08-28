@@ -21,7 +21,7 @@
    ```json
    {
      "Mode": {
-       // Use only one mode at a time to avoid errors
+       // To avoid errors, use only one mode at a time. If all modes are false, the farmer will start by default.
        "account_browser": false,  // provide email to start a PC browser session.
        "account_browser_mobile": false, // provide email to start a mobile browser session.
        "gen_outlook": false // Set to true to enable Outlook account generation.
