@@ -18,38 +18,7 @@
    edit the `settings.json` file with the following structure:
 
    ```json
-   {
-     "search_interval": 7,  // Time between each search in seconds
-     "accountLimit": 10,    // Number of accounts to create by gen-outlook
-     "gen_country": "Your country", // country to generate accounts from
-     "2captcha_api": "your api", //add your 2 captcha api or you remove this line and user free version 
-     "redeem_goal": 1700,   // Points goal for redemption
-     "RedeemAssistant": skip, //read notice.md for more information 
-     "pc_search": true, // true pc searches are enabled, false disabled 
-     "mobile_search": true,// true mobile searches are enabled, false disabled 
-     "tasks": {
-       "Daily": true,
-       "More promotions": true,
-       "Punch cards": true,
-       "Prediction Game": false,  // Prediction Game removed by Microsoft
-       "Read to earn": true
-     },
-     "extension_filenames": [ // coustom extensions
-       "web.crx",
-       "font.crx",
-       "audio.crx"
-     ], // windscribe vpn extension (beta version)
-     "vpn": {
-       "enabled": false,
-       "username": "your_username",
-       "password": "your_password",
-       "location": "your_desired_location"
-     },
-     "TOKEN": "your_token", // telegram tocken and chat id
-     "CHAT_ID": "your_chat_id",
-     "Discord_url": "webhook_url", //add you discord webhook urk
-     "secondary_email": "your_secondary_email@example.com" // give a email so bot can use it as secondary email 
-   }
+   
    ```
 
 4. **Account Management:**
