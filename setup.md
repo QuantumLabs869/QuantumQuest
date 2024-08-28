@@ -98,9 +98,9 @@
 
 ## Running the Script
 
-Once everything is set up, you can run the script with your desired arguments. For example:
+Once everything is set up, you can run the script with your desired settings.
 ```bash
-python main.py --no-webdriver-manager --fast
+python main.py 
 ```
 
 ### How to Run `gen-outlook`:
