@@ -22,8 +22,8 @@
    {
      "Mode": {
        // Use only one mode at a time to avoid errors
-       "account_browser": false,  // Set to true and provide email to start a PC browser session.
-       "account_browser_mobile": false, // Set to true and provide email to start a mobile browser session.
+       "account_browser": false,  // provide email to start a PC browser session.
+       "account_browser_mobile": false, // provide email to start a mobile browser session.
        "gen_outlook": false // Set to true to enable Outlook account generation.
      },
      "BrowserSettings": {
