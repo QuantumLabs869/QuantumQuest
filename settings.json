@@ -8,7 +8,7 @@
     "headless": false,
     "session": true,
     "no_images": true,
-    "virtual_display": fapse,
+    "virtual_display": false,
     "browser": false
   },
   "tasks": {
