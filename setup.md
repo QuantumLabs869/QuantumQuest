@@ -128,7 +128,7 @@ python main.py
 
 2. Execute the following command:
    ```bash
-   python main.py --gen-outlook
+   python main.py
    ```
 
 2.1 **How to Use Proxies in `gen-outlook`**
