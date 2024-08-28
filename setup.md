@@ -77,7 +77,7 @@
        "gen_country": "Your country", // Country to generate accounts from.
        "2captcha_api": "your api", // 2Captcha API key; remove this line or set to false to use the free version.
        "redeem_goal": 1700, // Points goal for redemption.
-       "RedeemAssistant": "skip", // Choose from: "skip", "tasks", "searches", "searchesR". "Skip" skips accounts until manual removal from redeem.txt.
+       "RedeemAssistant": "skip", // Choose from: "skip" (skips accounts until manual removal from redeem.txt), "tasks" (performs additional tasks then skips), "searches" (3-4 searches before skipping), "searchesR" (3-4 searches per round, highly effective). Combine methods except "skip".
        "secondary_email": "your_secondary_email@example.com" // Secondary email for the bot; only applicable when secondary mode is enabled.
      }
    }
