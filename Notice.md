@@ -45,7 +45,7 @@ QuantumQuest offers unmatched flexibility, speed, and support. In the past month
 - [✘] **Unlimited Accounts** (Supports up to 25 accounts)
 - [✘] **Daily Account Generation**
 - [✘] **Fast Execution Modes** (Only Fast2x available)
-- [✘] **Bonus Points Collection** (Lose 261 points on new accounts)
+- [✘] **Bonus Points Collection** (accounts will not receive bonus points upto 300)
 - [✔] **NordVPN Support**
 - [✔] **Rechecking Proxy Status**
 - [✔] **2Captcha API Integration**
