@@ -27,10 +27,10 @@
        "gen_outlook": false // Set to true to enable Outlook account generation.
      },
      "BrowserSettings": {
-       "headless": false, // Set to true to run the browser in headless mode (no GUI).
+       "headless": false, // Set to true to run the browser in headless mode.
        "session": true, // Set to false to disable session handling.
        "no_images": true, // Set to false to allow images to load.
-       "virtual_display": false, // Set to true to use a virtual display (useful for headless mode).
+       "virtual_display": false, // Set to true to use a virtual display (uno GUI)
        "browser": false // Specify the browser to use (e.g., "brave", "edge", "uc"). Set to false for Chrome.
      },
      "tasks": {
