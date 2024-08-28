@@ -60,7 +60,7 @@
        "fast2x": true, // Set to false to disable fast execution.
        "fast4x": false, // Set to true for maximum speed.
        "bonus": true, // Set to false to disable collecting bonus points.
-       "nordvpn": false, // Set to true to use NordVPN instead of Windscribe.
+       "nordvpn": false, // Set to true to use NordVPN instead 
        "captcha": true, // Set to false to disable CAPTCHA solving.
        "skip_unusual": false, // Set to true to skip detection of unusual activity.
        "shuffle": true, // Set to false to disable shuffling accounts.
