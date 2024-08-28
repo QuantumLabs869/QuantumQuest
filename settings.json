@@ -34,6 +34,7 @@
     "scroll_results": true,
     "pc_search": true,
     "mobile_search": true,
+    "search_interval": 7,
     "repeat_predictiongame": false,
     "fast2x": true,
     "fast4x": false,
