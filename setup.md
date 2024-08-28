@@ -1,6 +1,3 @@
-Here's the revised `.md` file with the necessary fixes and adjustments:
-
----
 
 # QuantumQuest Setup Guide
 
@@ -164,6 +161,4 @@ Manage proxies using `proxies.json`:
 - **NordVPN:** Available for those with a NordVPN account.
 - **Extensions:** Add or remove extensions as needed.
 
-For further assistance or issues, contact via Telegram: [click here](https://t.me/QuantumLabs869_bot).
-
----
+For further assistance or issues, contact via Telegram: [click here](https://t.me/QuantumLabs869_bot)
