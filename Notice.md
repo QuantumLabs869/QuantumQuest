@@ -109,7 +109,7 @@ QuantumQuest offers unmatched flexibility, speed, and support. In the past month
 
 ### Get a $1 Discount!
 
-Invite a friend to join QuantumQuest, and you’ll receive a **$1 discount** on any plan upon their successful purchase. It’s our way of saying thank you for helping us grow!
+Invite a friend to join QuantumQuest, and you’ll receive a **$1 discount** on any plan upon their successful purchase.basically you could get free subscription up on 5 successful refferal. It’s our way of saying thank you for helping us grow!
 
 ---
 
