@@ -139,13 +139,19 @@ python main.py --no-webdriver-manager --fast
 1. Ensure your `settings.json` includes the `"gen_country"` key with your country:
     ```json
     {
-      "gen_country": "Your Country"
-    }
+  "Mode": {
+    "gen_outlook": true
+  },
+  "BotSettings": {
+    "accountLimit": 10,
+    "gen_country": "Your Country"
+  }
+}
     ```
 
 2. Execute the following command:
     ```bash
-    python main.py --gen-outlook --accounts-file genoutlook.json --secondary --captcha --session
+    python main.py
     ```
 
 2.1 **How to Use Proxies in `gen-outlook`**
