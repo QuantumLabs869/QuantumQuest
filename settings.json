@@ -11,9 +11,7 @@
     "virtual_display": false,
     "browser": false
   },
-  "tasks": {
-    "pc_search": true,
-    "mobile_search": true,
+  "tasks": {    
     "Daily": true,
     "More promotions": true,
     "Punch cards": true,
@@ -34,6 +32,8 @@
   "BotSettings": {
     "click_results": true,
     "scroll_results": true,
+    "pc_search": true,
+    "mobile_search": true,
     "repeat_predictiongame": false,
     "fast2x": true,
     "fast4x": false,
