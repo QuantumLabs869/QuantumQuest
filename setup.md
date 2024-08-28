@@ -87,45 +87,14 @@
      Place existing accounts in the `Accounts` folder.
      For account management, use `genoutlook.json`. You can either specify the accounts file with:
      ```bash
-     --accounts-file genoutlook.json
+     accountsfile genoutlook.json
      ```
-     (recommended using `--accounts-file genoutlook.json`)
+     in settings
+     (recommended using `accountsfile genoutlook.json`)
      Or generate accounts using:
      ```bash
-     --gen-outlook
+     gen-outlook
      ```
-
-## Argument Details
-
-Here’s a breakdown of each argument you can use with the script:
-
-- `--secondary`: Add secondary email addresses.
-- `--gen-outlook`: Generate Outlook accounts.
-- `--click-results`: Click on search results.
-- `--scroll-results`: Scroll through search results.
-- `--repeat-predictiongame`: Repeat Prediction Game if it fails (currently removed by Microsoft).
-- `--everyday`: Run the script every day at the specified start time.
-- `--headless`: Enable headless mode for the browser (not recommended to use).
-- `--session`: Create a session for each account and use it.
-- `--fast`: Reduce delays to speed up the script.
-- `--superfast`: Further reduce delays for maximum speed.
-- `--account-browser <account>`: Open a browser session for the specified account.
-- `--bonus`: Collect bonus points, including setting goals.
-- `--account-browser-mobile <account>`: Open a mobile browser session for the specified account.
-- `--start-at <HH:MM>`: Start the script at the specified time (24h format).
-- `--on-finish <ACTION>`: Define an action to perform when the script finishes (shutdown, sleep, hibernate, exit).
-- `--nordvpn`: Use NordVPN for VPN (currently only supported on Windows).
-- `--captcha`: Solve captchas for account generation.
-- `--skip-unusual`: Skip unusual activity detection.
-- `--no-images`: Prevent images from loading to increase performance.
-- `--shuffle`: Randomize the order of accounts.
-- `--no-webdriver-manager`: Use a system-installed WebDriver instead of `webdriver-manager`. This is required as per the latest Selenium update.
-- `--virtual-display`: Use PyVirtualDisplay.
-- `--skip-if-proxy-dead`: Skip accounts if the provided proxy is not working.
-- `--print-to-webhook`: Print every message to a webhook.
-- `--recheck-proxy`: Recheck proxy status if facing errors.
-- `--accounts-file <FILE_NAME>`: Specify the accounts file in the bot directory.
-- `--browser <BROWSER>`: Choose the browser to use (options: brave, edge, uc, etc.).
 
 ## Running the Script
 
@@ -142,11 +111,12 @@ python main.py --no-webdriver-manager --fast
   },
   "BotSettings": {
     "accountLimit": 10,
-    "gen_country": "Your Country"
+    "gen_country": "Your Country",
+    "accounts_file" : "genoutlook.json"
   }
 }accountLimit: Specifies the number of accounts
 
-2. Execute the following command:
+3. Execute the following command:
     ```bash
     python main.py
     ```
