@@ -1,3 +1,7 @@
+Here's the revised `.md` file with the necessary fixes and adjustments:
+
+---
+
 # QuantumQuest Setup Guide
 
 ## Installation
@@ -87,39 +91,42 @@
      Place existing accounts in the `Accounts` folder.
      For account management, use `genoutlook.json`. You can either specify the accounts file with:
      ```bash
-     accountsfile genoutlook.json
+     --accounts-file genoutlook.json
      ```
-     in settings
-     (recommended using `accountsfile genoutlook.json`)
+     (recommended using `--accounts-file genoutlook.json`)
      Or generate accounts using:
      ```bash
-     gen-outlook
+     --gen-outlook
      ```
 
 ## Running the Script
 
-Once everything is set up, you can run the script with your desired settings.
+Once everything is set up, you can run the script with your desired settings:
 ```bash
-python main.py 
+python main.py
 ```
 
 ### How to Run `gen-outlook`:
 
-1. Ensure your settings.json includes the following configuration to enable account generation and set account limits:{
-  "Mode": {
-    "gen_outlook": true
-  },
-  "BotSettings": {
-    "accountLimit": 10,
-    "gen_country": "Your Country",
-    "accounts_file" : "genoutlook.json"
-  }
-}accountLimit: Specifies the number of accounts
+1. Ensure your `settings.json` includes the following configuration to enable account generation and set account limits:
 
-3. Execute the following command:
-    ```bash
-    python main.py
-    ```
+   ```json
+   {
+     "Mode": {
+       "gen_outlook": true
+     },
+     "BotSettings": {
+       "accountLimit": 10,
+       "gen_country": "Your Country",
+       "accounts_file": "genoutlook.json"
+     }
+   }
+   ```
+
+2. Execute the following command:
+   ```bash
+   python main.py --gen-outlook
+   ```
 
 2.1 **How to Use Proxies in `gen-outlook`**
 
@@ -151,7 +158,9 @@ Manage proxies using `proxies.json`:
 ## Notes
 
 - **VPN:** Currently, Windscribe is being tested with the extension in the beta version.
-- NordVPN is available for those with a NordVPN account.
+- **NordVPN:** Available for those with a NordVPN account.
 - **Extensions:** Add or remove extensions as needed.
 
 For further assistance or issues, contact via Telegram: [click here](https://t.me/QuantumLabs869_bot).
+
+---
