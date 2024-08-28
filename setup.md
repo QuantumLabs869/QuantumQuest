@@ -93,7 +93,7 @@ Here's the revised `.md` file with the necessary fixes and adjustments:
      ```bash
      "accounts_file": "genoutlook.json"
      ```
-     (recommended using `--accounts-file genoutlook.json`)
+     (recommended using `accounts-file genoutlook.json`)
      Or generate accounts using:
      ```bash
      {
