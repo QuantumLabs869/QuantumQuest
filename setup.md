@@ -136,9 +136,7 @@ python main.py --no-webdriver-manager --fast
 
 ### How to Run `gen-outlook`:
 
-1. Ensure your `settings.json` includes the `"gen_country"` key with your country:
-    ```json
-    {
+1. Ensure your settings.json includes the following configuration to enable account generation and set account limits:{
   "Mode": {
     "gen_outlook": true
   },
@@ -146,8 +144,7 @@ python main.py --no-webdriver-manager --fast
     "accountLimit": 10,
     "gen_country": "Your Country"
   }
-}
-    ```
+}accountLimit: Specifies the number of accounts
 
 2. Execute the following command:
     ```bash
