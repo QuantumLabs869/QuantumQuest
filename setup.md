@@ -91,12 +91,15 @@ Here's the revised `.md` file with the necessary fixes and adjustments:
      Place existing accounts in the `Accounts` folder.
      For account management, use `genoutlook.json`. You can either specify the accounts file with:
      ```bash
-     --accounts-file genoutlook.json
+     "accounts_file": "genoutlook.json"
      ```
      (recommended using `--accounts-file genoutlook.json`)
      Or generate accounts using:
      ```bash
-     --gen-outlook
+     {
+        "Mode": {
+       "gen_outlook": true
+     }
      ```
 
 ## Running the Script
