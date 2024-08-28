@@ -66,7 +66,8 @@ If you need any help or encounter any issues, reach out to us via Telegram: [cli
 - **User-Friendly Adjustments:** Make simple adjustments to optimize your environment.
 
 ### Advanced Features
-- **QuantumAutoRedeem:** get your accounts to redeem sorted out in detail 
+- **QuantumAutoRedeem:** get your accounts to redeem sorted out in detail
+- **RedeemPrediction:** get an aprox percentage of successful redemption chances
 - **Scheduled Runs:** Schedule specific times for task execution.
 - **Randomized Searches:** Add randomness to searches and adapt with Bing Trends if needed.
 - **HTTP Proxy Support:** Integrate HTTP proxies seamlessly.
