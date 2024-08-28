@@ -1,16 +1,22 @@
 {
-  "search_interval": 7,
-  "accountLimit": 10,
-  "gen_country": "Your country",
-  "2captcha_api": "your api",
-  "redeem_goal": 1700,
-  "RedeemAssistant": "skip",
-  "pc_search": true,
-  "mobile_search": true,
+  "Mode": {
+    "account_browser": false,
+    "account_browser_mobile": false,
+    "gen_outlook": false
+  },
+  "BrowserSettings": {
+    "headless": false,
+    "session": true,
+    "no_images": true,
+    "virtual_display": fapse,
+    "browser": false
+  },
   "tasks": {
-    "Daily": false,
-    "More promotions": false,
-    "Punch cards": false,
+    "pc_search": true,
+    "mobile_search": true,
+    "Daily": true,
+    "More promotions": true,
+    "Punch cards": true,
     "Prediction Game": false,
     "Read to earn": false
   },
@@ -25,8 +31,30 @@
     "password": "your_password",
     "location": "your_desired_location"
   },
-  "TOKEN": "your_token",
-  "CHAT_ID": "your_chat_id",
-  "Discord_url": "webhook_url",
-  "secondary_email": "your_secondary_email@example.com"
+  "BotSettings": {
+    "click_results": true,
+    "scroll_results": true,
+    "repeat_predictiongame": false,
+    "fast2x": true,
+    "fast4x": false,
+    "bonus": true,
+    "nordvpn": false,
+    "captcha": true,
+    "skip_unusual": false,
+    "shuffle": true,
+    "skip_if_proxy_dead": false,
+    "print_to_webhook": false,
+    "TOKEN": false,
+    "CHAT_ID": false,
+    "Discord_url": false,
+    "recheck_proxy": false,
+    "start_at": false,
+    "accounts_file": false,                                                                         "search_interval": 7,
+    "accountLimit": 10,
+    "gen_country": "Your country",
+    "2captcha_api": "your api",
+    "redeem_goal": 6500,
+    "RedeemAssistant": "skip",
+    "secondary_email": "your_secondary_email@example.com"
+  }
 }
