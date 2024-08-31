@@ -12,3 +12,4 @@ selenium==4.23.1
 selenium_stealth==1.0.6
 undetected_chromedriver==3.5.4
 webdriver_manager==4.0.1
+pywin32
