@@ -50,7 +50,7 @@
     "Discord_url": false,
     "recheck_proxy": false,
     "start_at": false,
-    "accounts_file": false,                                                                         "search_interval": 7,
+    "accounts_file": false,                                                                         
     "accountLimit": 10,
     "gen_country": "Your country",
     "2captcha_api": "your api",
