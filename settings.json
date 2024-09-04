@@ -57,6 +57,6 @@
     "redeem_goal": 6500,
     "RedeemAssistant": "skip",
     "secondary_email": "your_secondary_email@example.com",
-    "AutoOtp": false"
+    "AutoOtp": false
   }
 }
