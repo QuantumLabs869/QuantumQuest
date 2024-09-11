@@ -58,7 +58,7 @@
     "2captcha_api": "your api",
     "redeem_goal": 6500,
     "RedeemAssistant": "skip",
-    "secondary_email": "your_secondary_email@example.com",
+    "secondary_email": false,
     "AutoOtp": false
   }
 }
