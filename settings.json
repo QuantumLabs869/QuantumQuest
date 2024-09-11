@@ -41,6 +41,7 @@
     "fast4x": false,
     "bonus": true,
     "nordvpn": false,
+    "windscribe": false,
     "captcha": true,
     "skip_unusual": false,
     "shuffle": true,
