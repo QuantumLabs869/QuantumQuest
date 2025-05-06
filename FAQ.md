@@ -1,7 +1,7 @@
 # QuantumQuest FAQ
 
 <details>
-<summary>Q1:Is the Outlook Account Creator currently working?</summary>
+<summary>Q1:Is the Account Creator currently working?</summary>
 
 
 **A1:** Yes.
