@@ -88,12 +88,6 @@ QuantumQuest is a modular Python-based automation framework built for simulating
   * Task types
   * Account sources
 
-### ✅ Redeem & Result Prediction (Experimental)
-
-* *(For testing only)* Logic to simulate redemption triggers.
-* **Success rate estimation module** using basic heuristics and account status.
-
----
 
 ## 🔐 Obfuscation & Encrypted Gateway Access
 
