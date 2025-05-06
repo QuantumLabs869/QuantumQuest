@@ -1,91 +1,146 @@
-# QuantumQuest
+# QuantumQuest (Discontinued) – Advanced Browser Automation Framework
 
-Welcome to **QuantumQuest**, your ultimate companion for maximizing Microsoft Rewards effortlessly. Discover advanced features that transform how you engage with quests and rewards.
+> ⚠️ **Disclaimer:** This project is discontinued and preserved solely for educational and technical demonstration purposes. It is not intended for use with any live services or platforms.
 
-## 🔗 Obfuscation Notice
+QuantumQuest is a modular Python-based automation framework built for simulating human interaction with web services across multiple accounts and devices. It showcases advanced browser automation, fingerprint evasion, and multi-threaded task orchestration using **Selenium**, **JSON-based configuration**, and **encryption/obfuscation** techniques.
 
-For information about our code obfuscation and to address any concerns, please refer to our [Obfuscation Notice](CODE_OBFUSCATION_NOTICE.md). This notice explains why the code is obfuscated and how you can safely test it.
+---
 
-## 📞 Contact for Beta Testing and Support
+## 🔧 Technical Highlights
 
-If you need any help or encounter any issues, reach out to us via Telegram: [click here](https://t.me/QuantumLabs869_bot).
+### ✅ Cross-Platform Automation
 
-## 🌐 Key Features
+* Works on **Windows**, **macOS**, and **Linux** (including **Termux** on Android).
+* Compatible with **desktop and mobile environments**.
 
-### QuantumCooldown Mastery
-- **Bypass Cooldown Limits:** Enjoy smoother and more efficient tasks by minimizing Microsoft’s cooldown restrictions.
+### ✅ Search & Interaction Engine
 
-### Search Domination
-- **Multi-Platform Search:** Manage searches efficiently on both mobile and PC.
-- **QuantumCooldown Mastery:** Bypass search cooldown restrictions.
-- **Click Search Results:** Navigate through search results with precision.
-- **Advanced Typo:** Mimic human-like typos for a natural touch.
-- **Scroll Through Search Results:** Interact dynamically with search results.
+* **Multi-platform search execution** with randomized timing and input.
+* **Simulated human-like typos** and arrow-key suggestion navigation.
+* **Scroll through results** and **click entries** dynamically.
+* **Randomized queries** with optional integration of trending topics.
+* **Session-based tracking** to monitor and adapt to previous behavior.
 
-### Auto Outlook Account Creator 🤖2.0
-- **Create Outlook Accounts:** Easily create Outlook accounts on the go.
-![Click here to see the screen record ](MP4_20240803_232332VLOG.mp4)
+### ✅ Multi-Account Management
 
-### Device Compatibility 📱💻
-- **PC/Mac:** Full functionality through web browsers and Python environments.
-- **Android Devices:** Use mobile browsers and Android-compatible automation tools like Termux and Selenium to run scripts and manage accounts.
+* Manage multiple sessions in parallel with isolated cookies and sessions.
+* Automatically detects and handles:
 
-### Task Excellence
-- **Daily Set Tasks:** Complete daily tasks effortlessly.
-- **More Promotions:** Finish promotional tasks efficiently.
-- **Punchcards:** Complete punchcards with ease.
-- **Prediction Game:** Engage in VersusGame prediction challenges. (Removed by Microsoft)
-- **Setting Goal Tasks:** Achieve set goals easily.
-- **Take Lessons Signup (Beta version):** Earn bonus points by signing up on takelessons.com.
-- **Welcome Tour:** Earn points from welcome tours and pins.
-- **Read to Earn:** Collect Read to Earn points quickly.
-- **Map Bonus:** Earn rewards from map tasks. (Removed by Microsoft)
+  * **Suspended / locked accounts**
+  * **Unusual activity prompts**
+* **Account health monitoring** with error-based auto-restarts.
+* **Spreadsheet exports** with account/task summaries.
 
-### QuantumFingerprint Evasion
-- **QuantumFingerprint:** Adds a random browser fingerprint to navigate seamlessly and avoid bans.
+### ✅ Task Automation Modules
 
-### User-Agent and Proxy Mastery
-- **User-Agent Management:** Customize user-agents for various devices.
-- **Proxy Support:** Use HTTP proxies smoothly.
-- **Headless Mode:** Perform tasks discreetly with headless mode. (NOT RECOMMENDED)
+* Modular system for automating:
 
-### Multi-Account Management and Security
-- **Multi-Account Mastery:** Manage multiple accounts with ease.
-- **Restart on Error:** Overcome errors and keep operations running smoothly.
-- **Log Progress:** Monitor progress with comprehensive logs.
-- **Account Health Monitoring:** Detect suspended, locked, or unusual activities.
-- **Timeouts:** Prevent infinite loops with strategic timeouts.
+  * **Daily task simulations**
+  * **Goal tracking and completion**
+  * **Dynamic task list execution**
+  * **Form submission and link navigation**
+  * **Cache clearance and cleanup**
 
-### Extension Management
-- **Dynamic Addition:** Easily add new extensions by updating your `settings.json` file.
-- **Seamless Removal:** Swiftly remove unwanted extensions through `settings.json`.
-- **Instant Updates:** Reflect changes immediately with real-time updates from `settings.json`.
+### ✅ Configuration-Driven Architecture
 
-### Customization Features
-- **Flexible Configuration:** Tailor your bot setup by editing the `settings.json` file.
-- **User-Friendly Adjustments:** Make simple adjustments to optimize your environment.
+* Fully customizable via a single `settings.json` file.
+* Add, remove, or modify:
 
-### Advanced Features
-- **QuantumAutoRedeem:** get your accounts to redeem sorted out in detail
-- **RedeemPrediction:** get an aprox percentage of successful redemption chances
-- **Scheduled Runs:** Schedule specific times for task execution.
-- **Randomized Searches:** Add randomness to searches and adapt with Bing Trends if needed.
-- **HTTP Proxy Support:** Integrate HTTP proxies seamlessly.
-- **Spreadsheet Results:** Get a detailed spreadsheet with farming and account status.
-- **Secondary Mail:** Automatically add secondary mail.
+  * Extensions
+  * Task modules
+  * Timings
+  * User agents
+  * Proxies
+* **Real-time updates** reflected instantly via JSON reload.
 
-### Account Cleanup
-- **Profile Deletion:** Detect suspended accounts and manage profiles efficiently.
-- **Cache Management:** Clear cache intelligently for optimal performance.
+### ✅ Fingerprint & Stealth Techniques
 
-## 📜 Setup Instructions
+* **QuantumFingerprint**: Injects randomized browser fingerprinting data.
+* Rotate or spoof:
 
-Get started with QuantumQuest by following our comprehensive [setup guide](setup.md).
+  * **User-Agents**
+  * **Browser screen sizes**
+  * **Languages and headers**
+* Supports **HTTP proxy** integration.
+* Optional **headless mode** (not recommended due to detection).
 
-## 🌀 QuantumFuture
+### ✅ Error Handling & Logging
 
-Stay tuned for continuous updates, ensuring QuantumQuest remains your top companion for Microsoft Rewards!
+* Automatically:
 
-## ❓ Frequently Asked Questions
+  * Restarts on errors
+  * Captures logs
+  * Applies retry logic with exponential backoff
+* **Strategic timeouts** to avoid infinite loops and suspicious behavior.
 
-For more information and detailed answers to common questions, check out our [FAQ](FAQ.md).
+### ✅ Task Scheduling & Performance
+
+* **Scheduled runs** with custom time intervals.
+* Tracks task performance over time.
+* Logs search and task results to structured formats.
+
+### ✅ Extension & Module Management
+
+* Load/unload browser extensions dynamically from JSON.
+* Modular architecture supports plug-and-play for:
+
+  * Search engines
+  * Task types
+  * Account sources
+
+### ✅ Redeem & Result Prediction (Experimental)
+
+* *(For testing only)* Logic to simulate redemption triggers.
+* **Success rate estimation module** using basic heuristics and account status.
+
+---
+
+## 🔐 Obfuscation & Encrypted Gateway Access
+
+QuantumQuest includes an encrypted gateway client, **not the actual automation logic**. This obfuscated Python file served as a secure interface for verified users to connect to a central **Linux server** running the full Selenium-based automation suite.
+
+* Implemented using:
+
+  * **pyarmor** for code protection
+  * **nuitka/cython** for additional encryption (optional builds)
+* Gateway script securely collected basic device identifiers (e.g., hardware ID, OS, IP) and validated credentials.
+* Instead of distributing passwords, the server used node-based validation with dynamic user authentication.
+* Server-side infrastructure included:
+
+  * **NGINX reverse proxy**
+
+The project operated in a **subscription model** with 50+ active users until it was discontinued due to high maintenance overhead and server resource constraints.
+
+For rationale and architectural insights, refer to the [Code Obfuscation Notice](CODE_OBFUSCATION_NOTICE.md).
+
+
+---
+
+## 📁 Example Output
+
+* 📊 **Spreadsheets** showing task status, account state, error logs.
+* 📝 **Structured logs** for each task execution.
+* 🔁 Session snapshots for multi-session tracking and debugging.
+
+---
+
+## 📜 Setup & Configuration
+
+Follow the [Setup Guide](setup.md) to run the framework locally or in a controlled environment. Requires Python 3.8+ and ChromeDriver (or equivalent).
+
+---
+
+## ⚠️ Legal and Ethical Use
+
+This framework was built purely for research, experimentation, and skill demonstration in browser automation. **Do not** use this with any web service in violation of its Terms of Service.
+
+---
+
+## 🌀 Future Vision (Archived)
+
+Originally planned for continuous updates including:
+
+* OCR/captcha solving
+* Remote dashboard integration
+* Smart task prioritization using AI
+
