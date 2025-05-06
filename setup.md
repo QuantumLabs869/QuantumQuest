@@ -34,13 +34,7 @@
        "browser": false // Specify the browser to use (e.g., "brave", "edge", "uc"). Set to false for Chrome.
      },
      "tasks": {
-       "pc_search": true, // Set to false to disable PC searches.
-       "mobile_search": true, // Set to false to disable mobile searches.
-       "Daily": false, // Set to true to enable daily tasks.
-       "More promotions": true, // Set to true to enable more promotions.
-       "Punch cards": true, // Set to true to enable punch cards.
-       "Prediction Game": false, // Set to true to enable Prediction Game (note: this task has been removed by Microsoft).
-       "Read to earn": false // Set to true to enable "Read to earn" tasks.
+       sensitive
      },
      "extension_filenames": [
        "web.crx",  // Filename of the first custom extension to be used.
@@ -76,8 +70,7 @@
        "accountLimit": 10, // Number of accounts to create; only works if gen-outlook mode is enabled.
        "gen_country": "Your country", // Country to generate accounts from.
        "2captcha_api": "your api", // 2Captcha API key; remove this line or set to false to use the free version.
-       "redeem_goal": 1700, // Points goal for redemption.
-       "RedeemAssistant": "skip", // Choose from: "skip" (skips accounts until manual removal from redeem.txt), "tasks" (performs additional tasks then skips), "searches" (3-4 searches before skipping), "searchesR" (3-4 searches per round, highly effective). Combine methods except "skip".
+       sesnitive
        "secondary_email": "your_secondary_email@example.com" // Secondary email for the bot; only applicable when secondary mode is enabled.
      }
    }
@@ -161,4 +154,4 @@ Manage proxies using `proxies.json`:
 - **NordVPN:** Available for those with a NordVPN account.
 - **Extensions:** Add or remove extensions as needed.
 
-For further assistance or issues, contact via Telegram: [click here](https://t.me/QuantumLabs869_bot)
+For further assistance or issues, contact via Telegram: [click here]()
