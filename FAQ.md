@@ -56,7 +56,7 @@ If your account does have a cooldown, the searches are split into rounds with a 
 <summary>Q7: What does the "redeem.txt" file do?</summary>
 
 
-**A7:** The `redeem.txt` file lists accounts that have reached your specified "redeem goal points," which is set in the `settings.json` file. Once an account reaches the goal, the bot will stop farming for 3 days(it's recommended to give that account a 3-day break) so you can redeem safely. After redeeming remove the account from the list.
+**A7:** sensitive info
 
 </details>
 
@@ -64,14 +64,7 @@ If your account does have a cooldown, the searches are split into rounds with a 
 <summary>Q8: What does the bonus feature do?</summary>
 
 
-**A8:** The bonus feature is designed to optimize the point accumulation process for fresh accounts. If your account was just added or created, and the bonus argument is included, the bot will:
-
-- **Set an initial goal** of 200 points.
-- **Perform Bing searches** for the first level, aiming for 50 points.
-- **Complete the TakeLessons signup** task to earn 200 points (currently in beta, so your feedback would be valuable).
-- **Skip the maps bonus task** of 100 points. as it has been taken down by Microsoft. The bot will automatically bypass this until the feature is restored.
-
-This approach helps new accounts gain points quickly and efficiently.
+**A8:** sensitive info
 
 </details>
 
@@ -85,4 +78,4 @@ This approach helps new accounts gain points quickly and efficiently.
 
 ---
 
-For more questions or support, feel free to reach out to us on Telegram! [Contact Us](https://t.me/QuantumLabs869_bot)
+For more questions or support, feel free to reach out to us on Telegram! [Contact Us(discontinued)](https://t.me/)
